@@ -14,7 +14,7 @@ namespace TLVContactMngAPI.MongnDB
         {
             // TODO : Replace the following "connectionStringMongo" with the real one
 
-            String connectionStringMongo = "TODO-!!-ASK-ME-FOR-A-CONNECTION-STRING-OR-CREATE-ONE-YOURSELF";            
+            String connectionStringMongo = "TODO-!!-ASK-ME-FOR-A-CONNECTION-STRING-OR-CREATE-ONE-YOURSELF";
             var mongoClient = new MongoClient(connectionStringMongo);
             _mongoDb = mongoClient.GetDatabase("TLV-Contacts-Management");
         }

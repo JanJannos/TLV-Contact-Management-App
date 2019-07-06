@@ -3,7 +3,7 @@ import { Table } from 'react-bootstrap';
 import { Button, ButtonToolbar } from 'react-bootstrap';
 import { AddContactModal } from './AddContactModal';
 import { EditContactModal } from './EditContactModal';
-import { MDBCol, MDBFormInline, MDBIcon, MDBInput } from 'mdbreact';
+import { MDBCol, MDBFormInline } from 'mdbreact';
 
 export class Contact extends Component {
   constructor(props) {
